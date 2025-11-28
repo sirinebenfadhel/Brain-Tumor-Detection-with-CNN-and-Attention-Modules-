@@ -22,7 +22,7 @@ To run this project, ensure you have the following libraries installed:
 ```bash
 pip install numpy matplotlib scikit-learn pandas seaborn tensorflow pillow
 ```
-## 🧠 Models Implemented
+## Models Implemented
 
 This project implements and compares the following models:
 
@@ -46,7 +46,7 @@ This project implements and compares the following models:
     - **Spatial Attention Module:** Focuses on 'where' the informative parts are located.
     - **Convolutional Block Attention Module (CBAM):** A sequential application of both channel and spatial attention.
 
-## 📊 Results & Performance
+## Results & Performance
 
 ### Model Comparison Summary
 
@@ -62,7 +62,7 @@ This project implements and compares the following models:
 - It demonstrated a perfect recall (1.00) for the "Tumor" class, meaning it successfully identified all positive cases, which is crucial in a medical context.
 - The integration of **Spatial Attention** provided a noticeable improvement in accuracy (0.8553) over the base LeNet-5 model.
 
-## 🚀 How to Use
+## How to Use
 
 1.  **Clone the repository:**
     ```bash
@@ -77,7 +77,7 @@ This project implements and compares the following models:
     - Execute the Jupyter notebooks or Python scripts for the respective models (SVM, Custom CNN, LeNet-5).
     - The scripts for attention modules (`channel_attention.py`, `spatial_attention.py`, `cbam.py`) can be run to apply these mechanisms to the base models.
 
-## 📈 Metrics
+## Metrics
 
 The performance of all models was evaluated using the following metrics:
 - **Accuracy:** Overall proportion of correct predictions.
@@ -85,11 +85,11 @@ The performance of all models was evaluated using the following metrics:
 - **Recall (Sensitivity):** Ability of the model to identify all relevant positive cases.
 - **F1-Score:** Harmonic mean of Precision and Recall.
 
-## 🎯 Conclusion
+## Conclusion
 
 The custom CNN model proved to be the most effective for brain tumor detection from MRI scans in this study. The project also highlights the potential of attention mechanisms, particularly Spatial Attention, to further enhance model performance. An interactive dashboard was developed to facilitate the use of the best-performing model.
 
-## 👥 Contributors
+## Contributors
 
 - **Sirine Ben Fadhel** - [GitHub](https://github.com/sirinebenfadhel)
 - **Supervised by:** Rym Sessi
@@ -97,3 +97,5 @@ The custom CNN model proved to be the most effective for brain tumor detection f
 ---
 
 *This project is for academic and research purposes.*
+
+(the Accuracy was 0.88, but now it has dropped to 0.8 and that is normal because of the consistent changes that i'm making you can improve the code yourself if you want :)
