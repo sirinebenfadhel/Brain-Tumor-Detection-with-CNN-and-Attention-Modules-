@@ -14,6 +14,7 @@ This repository contains the code and documentation for a deep learning project 
 The project uses a dataset of brain MRI images, categorized into two classes:
 - **Tumor: Yes** (Positive Cases)
 - **Tumor: No** (Negative Cases)
+- The data: Brain MRI Images for Brain Tumor Detection (LINK: https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection )
 
 ## Installation & Requirements
 
