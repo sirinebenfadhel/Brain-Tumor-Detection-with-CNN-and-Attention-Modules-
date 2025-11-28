@@ -1,0 +1,2 @@
+# Brain-Tumor-Detection-with-CNN-and-Attention-Modules-
+The main objective of this project was to build a CNN model capable of classifying whether a subject has a tumor or not from an MRI image. I used the SVM, CNN, and LeNet-5 model architectures and their weights to train the model on this binary classification problem. (THIS PROJECT WAS DONE IN FRENCH that's why you'll find the notes in french)
